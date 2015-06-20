@@ -1,0 +1,28 @@
+{
+  "name": "canjs-steal-npm",
+  "version": "1.0.0",
+  "description": "Based on Bitovi blog post: http://blog.bitovi.com/using-canjs-2-2-with-stealjs/",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "steal-tools"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mjstahl/canjs-steal-npm.git"
+  },
+  "author": "Mark Stahl",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/mjstahl/canjs-steal-npm/issues"
+  },
+  "homepage": "https://github.com/mjstahl/canjs-steal-npm",
+  "dependencies": {
+    "can": "^2.3.0-pre.1",
+    "jquery": "^2.1.4",
+    "steal": "^0.10.5"
+  },
+  "devDependencies": {
+    "steal-tools": "^0.11.0-pre.0"
+  }
+}
